@@ -12,14 +12,16 @@
     align-items: center;
 }
 .logo h1 {
-    font-size: 60px;
+    font-size: 50px;
     color: #FFF;
+    font-weight: bold;
 }
 .logo span {
     color: #FFF;
     margin-top: 14px;
     margin-bottom: 34px;
     font-size: 19px;
+    font-weight: 300s;
 }
 
 .area-input {
@@ -30,6 +32,7 @@
     animation: slideY 2s;
 
 }
+
 
 @keyframes slideY {
     from {
@@ -61,6 +64,7 @@
     color: #FFF;
     outline: none;
     font-size: 18px;
+    font-weight: 400;
 }
 .area-input input::placeholder {
     color: rgba(255,255,255, 0.8)

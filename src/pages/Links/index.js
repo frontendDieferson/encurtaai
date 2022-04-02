@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import LinkItem from '../../components/LinkItem'
 import { getLinkSave, deleteLink } from '../../services/storeLinks'
 import {FiArrowLeft, FiLink, FiTrash } from 'react-icons/fi'
-
+import {MdAddBox} from 'react-icons/md'
 
 
 export default function Links() {
@@ -56,6 +56,9 @@ export default function Links() {
        {emptyList && (
            <div className='links-item'>
                <h2 className='empty-text'>Sua Lista está Vazia...</h2>
+               <Link to='/'>
+               <MdAddBox size={28} color='#FFF'/>
+            </Link>
            </div>
        )}
 
