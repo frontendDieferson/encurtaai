@@ -3,13 +3,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    text-align: center;
    
     
 }
 
 .container-footer span {
     color: #FFF;
+    cursor: pointer;
+    font-size: 16px;
     
 }
-

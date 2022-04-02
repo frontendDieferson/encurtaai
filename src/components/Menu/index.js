@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <div className='menu'>
             <a className='social'
-               href='https://instagram.com/c/encurtaai'>
+            onClick={() => window.open('https://instagram.com/c/encurtaai', '_blank')}>
             <BsInstagram color='#FFF' size={24} />
             </a>
         <Link className='menu-item' to='/links'>
