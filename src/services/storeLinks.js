@@ -8,7 +8,6 @@ export async function getLinkSave(key) {
     return linkSaves
 }
 
-
 // Salvar Link no LocalStorage
 
 export async function saveLink(key, newLink) {
